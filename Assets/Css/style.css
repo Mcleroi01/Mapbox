@@ -836,6 +836,7 @@ body {
     text-decoration: none;
     color: rgb(0, 47, 255);
     padding: 20px 0px;
+    font-size: 30px;
 }
 
 .TRUSTED .logo {
@@ -1067,7 +1068,55 @@ body {
 
 @media (max-width:480px) {
 
-
+    .build {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        height: 40px;
+        background-image: linear-gradient(10deg, #f950d7, #008cff), url("../img/fond_build.png");
+    }
+    
+    .build .title {
+        display: flex;
+        align-items: center;
+    }
+    .build .title h1 {
+        font-size: 20px;
+    }
+    .build .title p {
+        writing-mode: vertical-rl;
+        font-size: 8px;
+    }
+    
+    .build .title .logo img {
+        width: 80px;
+        object-fit: cover;
+        padding: 10px 5px;
+    }
+    
+    .build .title .logo img {
+        object-fit: cover;
+    }
+    
+    .build .date {
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
+    .build .x {
+        display: flex;
+        text-align: center;
+    }
+    
+    .build .x i {
+        font-size: 0.8rem;
+        z-index: 3000;
+    }
+    
     .build .date .rdv {
         display: none;
     }
@@ -1075,8 +1124,9 @@ body {
     .build .date .learn {
         border: 1px solid white;
         border-radius: 15px;
-        padding: 5px 20px;
-        margin: 0 5px;
+        padding: 2px 10px;
+        margin: 0 2px;
+        text-align: center;
     }
 
     .stick {
@@ -1509,7 +1559,7 @@ body {
     }
 
     .Toyota_txt img {
-        width: 400px;
+        width: 200px;
 
     }
 
@@ -1525,7 +1575,7 @@ body {
     }
 
     .Toyota_img .taille {
-        width: 400px;
+        width: 300px;
         padding: 0;
     }
 
@@ -1563,18 +1613,18 @@ body {
     .TRUSTED .logo {
         display: flex;
         flex-wrap: wrap;
-        padding: 20px 20px;
+        padding: 20px 30px;
     }
 
     .TRUSTED .logo .logo_taile {
-        width: 150px;
+        width: 200px;
     }
 
     .Customer {
         background: #1c1c1c;
         text-align: center;
         color: white;
-        padding: 0px 10px;
+        padding: 20px 20px;
     }
 
     .secteur {
@@ -1595,6 +1645,24 @@ body {
         color: white;
         transition: all 0.3s ease;
         border-radius: 20px;
+    }
+
+    .stared {
+        text-align: center;
+        padding: 30px 30px;
+        color: white;
+        background-color: #181a214d;
+        margin: 50px 20px;
+        border-radius: 15px;
+    }
+    .stared h2{
+        padding: 0 20px;
+        
+    }
+    .stared p{
+        padding: 20px;
+        color: #7b7b7b;
+        font-size: 20px;
     }
 
     .swip_controler {

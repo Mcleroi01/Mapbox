@@ -18,7 +18,7 @@
 }
 .form a{
     text-decoration: none;
-    color: #4d02e7;
+    color: #0040ff;
 }
 .form_ittems{
     display: flex;
@@ -47,7 +47,7 @@ input[type=checkbox]{
     width: 20px;
     height: 20px;
     color: rgb(255, 255, 255);
-    background: #4d02e7;
+    background: #0040ff;
     
 
 }
@@ -58,7 +58,7 @@ input[type=checkbox]{
     height: 40px;
     color: white;
     border-radius: 5px;
-    background: #4d02e7;
+    background: #0040ff;
     font-weight: 700;
     font-size: 15px;
 }
@@ -68,7 +68,7 @@ input[type=checkbox]{
     color: white;
     border-radius: 50px;
     padding: 15px 20px;
-    background: #4d02e7;
+    background: #0040ff;
     font-weight: 700;
     font-size: 15px;
 }
@@ -119,8 +119,8 @@ i{
 }
 
 .boule.active{
-    background: #4d02e7;
-    border: #4d02e7 solid 1px;
+    background: #0040ff;
+    border: #0040ff solid 1px;
     width: 7px;
     height: 7px;
     border-radius: 50%;
