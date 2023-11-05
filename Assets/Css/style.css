@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(11, 11, 11);
+    background: #0f1012;
 }
 
 .build {
@@ -85,7 +85,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
-    background: rgb(11, 11, 11);
+    background: #0f1012;
     align-items: center;
     padding: 20px 30px;
 }
@@ -164,7 +164,7 @@ body {
     background: rgb(53, 53, 53);
     padding: 10px 10px;
     border-radius: 50%;
-    color: #0062ff;
+    color: #007afc;
     font-size: 15px;
     align-items: center;
 }
@@ -178,7 +178,7 @@ body {
 }
 
 .ittems .text:hover {
-    color: #0040ff;
+    color: #007afc;
 }
 
 .ittems .text p {
@@ -187,7 +187,7 @@ body {
 }
 
 .ittems .text p:hover {
-    color: #0040ff;
+    color: #007afc;
 }
 
 .nav_menu .dropdown1:hover .navigation {
@@ -270,7 +270,7 @@ body {
 }
 
 .Solutions .ittems:hover {
-    color: #0040ff;
+    color: #007afc;
 }
 
 .Solutions .users {
@@ -344,7 +344,7 @@ body {
     color: rgb(230, 229, 229);
     padding: 0 10px;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .Developers .dev {
@@ -390,18 +390,21 @@ body {
 .Developers .generic .ittems {
     padding: 5px 10px;
 }
+
 .Developers .generic .ittems .pad {
     padding: 15px 0px;
 }
+
 .Developers .ittems:hover {
-    color: #0040ff;
+    color: #007afc;
 }
 
-.Developers .rsx{
+.Developers .rsx {
     text-align: left;
     display: flex;
 }
-.Developers .rsx a{
+
+.Developers .rsx a {
     padding: 10px 20px;
     background: #272727;
     margin: 0 0 0px 5px;
@@ -441,7 +444,7 @@ body {
 }
 
 .nav_bar .sing .roud {
-    background: #0040ff;
+    background: #0e72fc;
     padding: 10px 10px;
     border-radius: 20px;
     margin: 0 10px;
@@ -487,8 +490,8 @@ body {
 }
 
 .head_btn .roud {
-    background: #0040ff;
-    padding: 15px 40px;
+    background: #0e72fc;
+    padding: 15px 20px;
     border-radius: 30px;
     margin: 0 20px;
     text-decoration: none;
@@ -579,7 +582,7 @@ body {
     width: 50rem;
     height: 30rem;
     box-shadow: -2px 5px 33px 6px black(0, 0, 0, 0.35);
-    background: linear-gradient(20deg, #000000, #070026, transparent), url("../img/carte.webp");
+    background: linear-gradient(20deg, #0f1012, #0f1012, transparent), url("../img/carte.webp");
     display: flex;
     border-radius: 20px;
     color: white;
@@ -834,7 +837,7 @@ body {
 
 .TRUSTED a {
     text-decoration: none;
-    color: rgb(0, 47, 255);
+    color: #007afc;
     padding: 20px 0px;
     font-size: 30px;
 }
@@ -853,6 +856,8 @@ body {
 .location {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
     padding: 80px 30px;
     color: white;
 }
@@ -894,7 +899,7 @@ body {
 }
 
 .Customer {
-    background: #181a214d;
+    background: #161a1d;
     padding: 100px;
     text-align: center;
     color: white;
@@ -926,7 +931,7 @@ body {
 }
 
 .btns.active {
-    background-color: #0062ff;
+    background-color: #007afc;
     color: white;
     transition: all 0.3s ease;
     border-radius: 20px;
@@ -967,7 +972,7 @@ body {
 
 .Toyota_txt a {
     text-decoration: none;
-    color: #0040ff;
+    color: #007afc;
     font-size: 30px;
 
 }
@@ -1022,7 +1027,7 @@ body {
     text-align: center;
     padding: 50px 80px;
     color: white;
-    background-color: #181a214d;
+    background-color: #161a1d;
     margin: 50px;
     border-radius: 15px;
 }
@@ -1036,7 +1041,7 @@ body {
 }
 
 .more a {
-    color: #7b7b7b;
+    color: #909da5;
 }
 
 .plus {
@@ -1058,12 +1063,21 @@ body {
     color: white;
     padding: 20px 50px;
     text-align: center;
-    background: #1c1c1c;
+    background: #161a1d;
+    color: #909da5;
 
 }
 
 .footer i {
     font-size: 25px;
+    color: #909da5;
+}
+.footer_asset{
+    display: flex;
+}
+
+.footer p {
+    color: #909da5;
 }
 
 @media (max-width:480px) {
@@ -1075,48 +1089,39 @@ body {
         padding: 10px 20px;
         text-align: center;
         height: 40px;
-        background-image: linear-gradient(10deg, #f950d7, #008cff), url("../img/fond_build.png");
+        background-image: linear-gradient(10deg, #fe2ad3, #007afc), url("../img/fond_build.png");
     }
-    
+
     .build .title {
         display: flex;
         align-items: center;
     }
+
     .build .title h1 {
         font-size: 20px;
     }
+
     .build .title p {
         writing-mode: vertical-rl;
         font-size: 8px;
     }
-    
+
     .build .title .logo img {
         width: 80px;
         object-fit: cover;
         padding: 10px 5px;
     }
-    
+
     .build .title .logo img {
         object-fit: cover;
     }
-    
+
     .build .date {
         display: flex;
         align-items: center;
     }
-    
-    
-    
-    .build .x {
-        display: flex;
-        text-align: center;
-    }
-    
-    .build .x i {
-        font-size: 0.8rem;
-        z-index: 3000;
-    }
-    
+
+
     .build .date .rdv {
         display: none;
     }
@@ -1392,13 +1397,104 @@ body {
         flex-direction: column;
         top: 0px;
         color: white;
-        background: none;
         padding: 10px 0px;
         border-radius: 8px;
         margin: 0px;
-        right: 0px;
-        max-width: 0%;
+        left: 0px;
+        max-width: 0px;
+
+    }
+
+    .nav_menu.menu-mobile .Developers .users {
+        padding: 20px 30px;
+
+    }
+
+    .nav_menu.menu-mobile .Developers .users .CASES {
+        display: flex;
+        padding: 20px 10px;
+
+    }
+
+    .nav_menu.menu-mobile .Developers .users .CASES i {
+        background: rgb(53, 53, 53);
+        padding: 10px 10px;
+        border-radius: 50%;
+        align-items: center;
+    }
+
+    .nav_menu.menu-mobile .Developers .users .CASES h2 {
+        color: rgb(230, 229, 229);
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .nav_menu.menu-mobile .Developers .dev {
+        display: flex;
+        flex-direction: column;
         text-align: left;
+
+    }
+
+    .nav_menu.menu-mobile .Developers .industry {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 10px 0px;
+    }
+
+    .nav_menu.menu-mobile .Developers .industry .txt {
+        display: flex;
+        padding: 10px 10px;
+        text-align: left;
+        border-bottom: #7b7b7b 1px solid;
+    }
+
+    .nav_menu.menu-mobile .Developers .industry h2 {
+        color: rgb(82, 82, 82);
+        padding: 0 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .nav_menu.menu-mobile .Developers .industry i {
+        background: rgb(53, 53, 53);
+        padding: 10px 10px;
+        border-radius: 50%;
+        color: #00ffa2;
+        align-items: center;
+    }
+
+    .nav_menu.menu-mobile .Developers .generic {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .nav_menu.menu-mobile .Developers .generic .ittems {
+        padding: 5px 0px;
+    }
+
+    .nav_menu.menu-mobile .Developers .generic .ittems .pad {
+        padding: 0px 0px 10px;
+        font-size: 18px;
+    }
+
+    .nav_menu.menu-mobile .Developers .ittems:hover {
+        color: #0e72fc;
+    }
+
+    .nav_menu.menu-mobile .Developers .rsx {
+        text-align: left;
+        display: flex;
+    }
+
+    .nav_menu.menu-mobile .Developers .rsx a {
+        padding: 10px 20px;
+        background: #272727;
+        margin: 0 0 0px 5px;
+        color: #7b7b7b;
     }
 
     .nav_menu.menu-mobile .dropdown3:hover .Developers {
@@ -1409,7 +1505,7 @@ body {
         display: flex;
         text-align: center;
         color: white;
-        padding: 10px 0px;
+        padding: 10px 30px;
     }
 
     .head .head_title {
@@ -1419,7 +1515,7 @@ body {
     }
 
     .head .head_title h1 {
-        font-size: 2.8rem;
+        font-size: 2rem;
         padding: 20px;
     }
 
@@ -1429,7 +1525,7 @@ body {
     }
 
     .head .head_title .P p {
-        font-size: 1.6rem;
+        font-size: 1rem;
         color: #7d8794;
         padding: 17px;
     }
@@ -1443,8 +1539,8 @@ body {
     }
 
     .head_btn .roud {
-        background: #0040ff;
-        padding: 15px 40px;
+        background: #0e72fc;
+        padding: 10px 15px;
         border-radius: 30px;
         margin: 20px 0px;
         text-decoration: none;
@@ -1453,12 +1549,12 @@ body {
     .head_btn .roud a {
         color: white;
         text-decoration: none;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .head_btn .roud_b {
         border: 1px solid white;
-        padding: 15px 40px;
+        padding: 10px 10px;
         border-radius: 30px;
         margin: 20px 0px;
         text-decoration: none;
@@ -1466,7 +1562,7 @@ body {
 
     .head_btn .roud_b a {
         color: white;
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-decoration: none;
     }
 
@@ -1517,35 +1613,39 @@ body {
         left: 700px;
         margin: 1.5rem;
         box-shadow: -2px 5px 33px 6px black(0, 0, 0, 0.35);
-        background: linear-gradient(20deg, #000000, #070026, transparent), url("../img/carte.webp");
+
         flex-direction: column;
     }
 
     .box .box_ittems {
         display: flex;
         flex-direction: column;
-        margin: 0px;
+        margin: 20px 20px;
     }
 
     .box .box_ittems h3 {
         margin: 10px 0px;
+        font-weight: 700;
+        font-size: 25px;
+
 
     }
 
     .box .box_ittems p {
-        margin: 10px 0px 30px;
+        margin: 100px 0px 30px;
 
     }
 
     .box .box_ittems a {
-        padding: 0px 10px;
-        background: #0040ff;
+        padding: 5px 30px;
+        background: #1a8c59;
         border-radius: 6px;
         text-decoration: none;
         color: white;
     }
 
     .box img {
+        display: none;
         width: 200px;
         margin: 0px 0px 0px;
     }
@@ -1581,19 +1681,25 @@ body {
 
     .footer {
         display: flex;
-        flex-direction: column;
-        text-align: left;
+        flex-direction: column-reverse;
+        text-align: center;
         color: white;
-        padding: 20px 10px;
+        padding: 20px 20px;
         background: #1c1c1c;
     }
 
+    .footer_icon {
+        padding: 30px 0;
+    }
+
     .footer i {
-        font-size: 18px;
+        font-size: 28px;
+        padding: 30px 10px;
     }
 
     .footer p {
-        padding: 5px;
+        padding: 10px 0;
+        text-align: left;
     }
 
     .TRUSTED {
@@ -1606,7 +1712,7 @@ body {
 
     .TRUSTED a {
         text-decoration: none;
-        color: rgb(0, 47, 255);
+        color: #007afc;
         padding: 20px 0px;
     }
 
@@ -1621,7 +1727,7 @@ body {
     }
 
     .Customer {
-        background: #1c1c1c;
+        background: #161a1d;
         text-align: center;
         color: white;
         padding: 20px 20px;
@@ -1651,15 +1757,18 @@ body {
         text-align: center;
         padding: 30px 30px;
         color: white;
-        background-color: #181a214d;
+        background-color: #161a1d;
         margin: 50px 20px;
         border-radius: 15px;
     }
-    .stared h2{
+
+    .stared h2 {
         padding: 0 20px;
-        
+
     }
-    .stared p{
+
+
+    .stared p {
         padding: 20px;
         color: #7b7b7b;
         font-size: 20px;
@@ -1669,6 +1778,11 @@ body {
         display: flex;
         justify-content: center;
         margin: 10px 0;
+    }
+
+    .more .plus img{
+        padding: 10px 0;
+        width: 120px;
     }
 
 }
